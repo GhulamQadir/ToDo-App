@@ -1,4 +1,4 @@
-var olist = document.getElementById('list')
+var ulist = document.getElementById('list')
 function addToDo(){
     var addToDo = document.getElementById('input');
     var list = document.createElement('li');
@@ -7,20 +7,20 @@ function addToDo(){
     
     //create delete btn
     var delBtn = document.createElement('button');
-    var delText = document.createTextNode('Delete');
+    var delText = document.createTextNode(' Delete');
     delBtn.appendChild(delText);
-    delBtn.setAttribute('class','btn');
+    delBtn.setAttribute('class','liBtn');
     delBtn.setAttribute('onclick','deleteItem(this)');
     
     //create edit btn
     var editBtn = document.createElement('button');
-    var editText = document.createTextNode('Edit');
+    var editText = document.createTextNode(' Edit');
     editBtn.appendChild(editText);
     list.appendChild(delBtn);
     list.appendChild(editBtn);
-    editBtn.setAttribute('class','btn');
+    editBtn.setAttribute('class','liBtn');
     editBtn.setAttribute('onclick','editItem(this)')
-    olist.appendChild(list);
+    ulist.appendChild(list);
     addToDo.value = "";
    
 }
@@ -35,5 +35,6 @@ function editItem(e){
 }
 
 function delAll(){
-    olist.innerHTML = "";
+    ulist.innerHTML = "";
 }
+

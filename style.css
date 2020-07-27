@@ -1,16 +1,26 @@
 body{
     text-align: center;
-    background-image: url('https://media.istockphoto.com/photos/business-plan-todo-list-or-reminder-concept-female-hand-holding-black-picture-id1021975288');
+    background-image: url('https://image.shutterstock.com/image-photo/do-list-conceptual-600w-314959406.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: auto;
-    width: auto; */
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+ }
+.btn,.liBtn{
+    color: royalblue;
+    height: 25px;
+    padding: 4px 6px 4px 6px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
-.btn{
-    color: white;
-    background-color: rgb(37, 110, 155);
+input{
+    margin: 20px;
+    width: 40%;
 }
 #list{
-    color: white;
-}
+    color: rgb(37, 36, 36);
+} 

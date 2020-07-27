@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
         <div>
-            <input type="text"id="input">
-            <button class="btn" onclick="addToDo()">Add</button>
-            <button class="btn" onclick="delAll()">Delete All</button>
+            <input type="text"id="input"placeholder="Title...">
+            <button class="btn" onclick="addToDo()"> Add ToDo</button>
+            <button class="btn" onclick="delAll()"> Delete All</button>
         </div>
     </div>
     <div class="container">
         <div>
-            <ol id="list" >
+            <ul id="list" >
                 
             </ol>
         </div>
     </div>
+
+   
     <script src="app.js"></script>
 </body>
 </html>
