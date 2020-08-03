@@ -37,4 +37,3 @@ function editItem(e){
 function delAll(){
     ulist.innerHTML = "";
 }
-

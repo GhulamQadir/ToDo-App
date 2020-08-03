@@ -1,26 +1,27 @@
 body{
-    text-align: center;
-    background-image: url('https://image.shutterstock.com/image-photo/do-list-conceptual-600w-314959406.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: auto;
-    width: auto;
- }
+  text-align: center;
+  background-image: url('https://image.shutterstock.com/image-photo/do-list-conceptual-600w-314959406.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  width: auto;
+}
 .btn,.liBtn{
-    color: royalblue;
-    height: 25px;
-    padding: 4px 6px 4px 6px;
-    flex-wrap: wrap;
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
+  color: royalblue;
+  height: 25px;
+  padding: 4px 6px 4px 6px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  
 }
 input{
-    margin: 20px;
-    width: 40%;
+  margin: 20px;
+  width: 40%;
 }
 #list{
-    color: rgb(37, 36, 36);
+  color: rgb(37, 36, 36);
 } 
